@@ -1,0 +1,48 @@
+body{
+	background-color: f0f0f0
+}
+
+a:link{
+   color:#666666;
+  font-size:23px;
+}
+
+a:visited{
+  color:#666666;
+}
+
+a:hover{
+  color:#808080;
+}
+
+a:active{
+  color:#808080;
+   font-size:20px;
+}
+
+
+.menu {
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 30%;
+	overflow: hidden;
+}
+
+.menu a {
+	text-decoration: none;
+	font-family: "Gill Sans", sans-serif;
+	display: inline-block;
+	padding: 10px 20px;
+	border-bottom: 5px solid #778899;
+	background-color: #EEE8AA;
+}
+
+.menu li {
+	float: left;
+}
+
+.video{
+	position: absolute;
+	top: 1;
+	right: 0;
+}
